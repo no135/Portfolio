@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bemiheret Tabushe's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bemiheret Tabushe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="d-flex justify-content-center align-items-center text-center text-white"
+        style="height: 100vh; background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;">
+        <div class="overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+        <div class="position-relative z-index-2">
+            <h1 class="display-4 fw-bold">Welcome to My Portfolio</h1>
+            <p class="lead">I'm Bemiheret Tabushe, from Addis Abeba, Ethiopia.</p>
+            <p class="lead">I build websites using HTML, CSS, and JavaScript.</p>
+            <a href="#contact" class="btn btn-primary btn-lg">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center display-5 mb-4">About Me</h2>
+            <div class="text-center mb-4">
+                <img src="profile.jpg" alt="Bemiheret Tabushe" class="rounded-circle img-fluid"
+                    style="width: 150px; height: 150px;">
+            </div>
+            <p class="lead text-center mb-5">Hi! I'm Bemiheret Tabushe, Computer Science student who would like to become web developer focused on building
+                clean, responsive, and user-friendly websites. Currently, I'm trying to develop my skills on JavaScript and exploring full-stack development.</p>
+
+            <div class="row text-center">
+                <div class="col-sm-4 mb-4">
+                    <div class="card h-100 shadow-lg border-0 rounded-3">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML</h5>
+                            <p class="card-text">I create well-structured HTML documents to
+                                ensure the website is search engine optimized.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                    <div class="card h-100 shadow-lg border-0 rounded-3">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS</h5>
+                            <p class="card-text">I build websites using modern CSS techniques to create visually
+                                appealing, responsive, and mobile-friendly designs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                    <div class="card h-100 shadow-lg border-0 rounded-3">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                            <p class="card-text">I create dynamic interactions to websites using JavaScript to enhance user experiences and performance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary text-white py-5 text-center">
+        <h2 class="display-4">Let’s Collaborate!</h2>
+    </section>
+
+    <section id="contact" class="py-5 bg-dark text-white" style="padding-bottom: calc(6rem+1cm);">
+        <div class="container">
+            <h2 class="text-center display-5 mb-4">Contact Me</h2>
+            <p class="text-center mb-5">Feel free to reach out! I would love to hear how we can collaborate.</p>
+            <form>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>© 2025 Bemiheret Tabushe. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://github.com/no135" class="text-white me-3"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-white me-3"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
